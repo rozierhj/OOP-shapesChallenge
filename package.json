@@ -1,0 +1,21 @@
+{
+  "name": "oop-shapeschallenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "color": "^4.2.3"
+  }
+}

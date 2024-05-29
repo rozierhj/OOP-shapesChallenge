@@ -24,7 +24,7 @@ const userInput = [
 ];
 
 function getInput(){
-    
+
     return new Promise((resolve, reject) =>{
 
     inquirer.prompt(userInput)
@@ -48,8 +48,6 @@ function getInput(){
         else{
              reject(new Error('No shape input was found'));
         }
-
-        //console.log(shape);
         
     })
     .catch(error =>{

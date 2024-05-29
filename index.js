@@ -3,6 +3,7 @@ const color = require('color');
 const inquirer = require('inquirer');
 const {Triangle, Circle, Square} = require('./lib/shapes');
 const { type } = require('os');
+const validateColor = require('validate-color');
 
 const userInput = [
     {

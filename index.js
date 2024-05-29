@@ -19,8 +19,13 @@ const userInput = [
         type: 'list',
         name: 'shape',
         message: 'Choose a shape for your logo: ',
-        choices: ['Square','Circle','Triangle', 'test'],
-    }
+        choices: ['Square','Circle','Triangle'],
+    },
+    {
+        type: 'input',
+        name: 'textColor',
+        message: 'Choose a color for the font: ',
+    },
 ];
 
 function getInput(){
@@ -32,17 +37,17 @@ function getInput(){
         console.log(`User choices: ${data.colors}, ${data.name} and ${data.shape}`);
 
         if(data.shape === 'Circle'){
-            const circle = new Circle(data.colors, data.name, data.shape);
+            const circle = new Circle(data.colors, data.name, data.shape, data.textColor);
             resolve(circle.render());
         }
 
         else if(data.shape === 'Triangle'){
-            const triangle = new Triangle(data.colors, data.name, data.shape);
+            const triangle = new Triangle(data.colors, data.name, data.shape, data.textColor);
             resolve(triangle.render());
         }
 
         else if(data.shape === 'Square'){
-            const square = new Square(data.colors, data.name, data.shape);
+            const square = new Square(data.colors, data.name, data.shape, data.textColor);
             resolve(square.render());
         }
         else{

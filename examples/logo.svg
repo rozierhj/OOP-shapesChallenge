@@ -2,9 +2,9 @@
         
             <svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
 
-                <circle cx="150" cy="100" r="100" fill="green" />
+                <polygon points="160,10 10,210 310,210" fill="black" />
 
-                <text x="150" y="116" font-size="60" text-anchor="middle" fill="red">too</text>
+                <text x="160" y="160" font-size="60" text-anchor="middle" fill="blue">vhr</text>
 
             </svg>
         

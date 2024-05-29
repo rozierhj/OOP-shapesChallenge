@@ -23,6 +23,7 @@
   #### [link to the git repository](https://github.com/rozierhj/OOP-shapesChallenge)
 
     Enter command: node index.js into the terminal. The application will ask the user for text to put on the logo and will test that the user input is 3 characters long. The application will ask the user for a color for the text and test that they give a valid color name or hexidecimal code. The application will give the user 3 options for a shape for the logo (Triangle, Square and Circle). The application will ask the user for a color for the shape background and will test that the user provides a valid color input. The application will take the user input and create an svg file and save it to the examples folder.
+    Demonstration video is also in the examples folder.
 
   ![]()
 
